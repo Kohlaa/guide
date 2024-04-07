@@ -116,13 +116,13 @@ class _DetailsViewState extends State<DetailsView> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 25),
             child: InkWell(
-              onTap: () => {
+              onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) => const HomeScreen(),
                   ),
-                )
+                );
               },
               child: Container(
                 height: 50,
